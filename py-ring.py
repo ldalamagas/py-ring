@@ -12,7 +12,7 @@ __author__ = 'lefteris'
 
 def create_argument_parser():
     logger.debug("Parsing Arguments")
-    p = argparse.ArgumentParser(description="Desktop Launcher Creator")
+    p = argparse.ArgumentParser(description="Simple keyring handler")
     p.add_argument('--add', '-a', help="Add credentials to keyring", action="store_true")
     p.add_argument('--remove', '-r', help="Remove credentials from keyring", action="store_true")
     p.add_argument('--service', '-s', help="Service name to add or remove")
