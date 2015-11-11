@@ -7,8 +7,6 @@ import keyring
 from keyring.errors import PasswordDeleteError
 import sys
 
-__author__ = 'lefteris'
-
 
 def create_argument_parser():
     logger.debug("Parsing Arguments")
